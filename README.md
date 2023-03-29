@@ -1,6 +1,5 @@
 # JumpApp
-Combined project between:  
-Advanced Coding Tools and Methodologies & Computer Music - Representations and Models
+JumpApp: an online didactic game for music training and education
 
 ## Why?
 This project is based on the idea of creating a fun, educational and musical game, available online for free, without the need to install it on your device.  
