@@ -543,6 +543,9 @@ var playScene = {
 		//Set world bounds
 		this.physics.world.setBounds(0, 0, resolution[0], resolution[1]);
 
+		//Footer
+		footer = this.add.text(resolution[0]/2,resolution[1]-20, "Copyright © 2019 - Olivieri · Simeon",  { font: "15px Arial", fill: platformColor}).setOrigin(0.5);
+
 		//PLAYER
 		//------------------------------------------------------------------------------------------------------
 		player = this.physics.add.sprite(playerFixedX, playerInitialY, 'player').setScale(resolution[1]/636);
@@ -1382,6 +1385,7 @@ function manageStatus() {
 
 		case "Started": //The game should start running
 			pitchDetector.resumeAudioContext()	//to enable the AudioContext of PitchDetector
+			pitchDetector.start(); //Restart the pitch detector after resuming the AudioContext
 			game.scene.resume("playScene"); //Starting scene (update() function starts looping)
 			playPauseButton.setTexture('pause');
 
