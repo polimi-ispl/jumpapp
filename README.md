@@ -41,6 +41,14 @@ For JumpApp development, the following external libraries have been used:
 You can see a small [video demonstration of the game](https://jumpapp.surge.sh/demo_JumpApp.mp4) or the [complete version](https://jumpapp.surge.sh) where you can play.
 #### Enjoy your time!
 
+## Try it locally
+If you want to try the game locally, you should:
+1. Clone the repository: `git clone https://github.com/polimi-ispl/jumpapp.git`
+2. Move into the project directory: `cd jumpapp`
+3. Start a local http server using python 3: `python -m http.server`
+
+\
+\
 Copyright © 2019 - Olivieri · Simeon - all rights reserved.
 
 
